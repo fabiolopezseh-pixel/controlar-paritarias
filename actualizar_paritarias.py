@@ -43,7 +43,7 @@ REGLAS ESTRICTAS:
 
     print("Consultando acuerdos paritarios vigentes con Gemini + Google Search...")
     response = client.models.generate_content(
-        model="gemini-3.8-flash",,
+        model="gemini-3.8-flash",
         contents=prompt,
         config=types.GenerateContentConfig(
             tools=[{"google_search": {}}],
