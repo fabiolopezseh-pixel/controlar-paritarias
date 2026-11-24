@@ -1,0 +1,44 @@
+name: Actualización Automática de Paritarias AR
+
+on:
+  schedule:
+    # Se ejecuta automáticamente todos los lunes a las 11:00 UTC (08:00 AM hora Argentina)
+    - cron: '0 11 * * 1'
+  # Permite ejecutarlo manualmente en cualquier momento con un clic desde GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-escalas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar búsqueda y actualización de paritarias
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python actualizar_paritarias.py
+
+      - name: Guardar cambios en main si hubo actualizaciones
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "ControlAR Bot"
+          git add paritarias_ar.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(paritarias): actualización automática de escalas salariales"
+            git push
+          else
+            echo "No hay cambios nuevos para commitear."
+          fi
