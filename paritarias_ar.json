@@ -1,0 +1,177 @@
+{
+  "version": "2026.11",
+  "actividades": {
+    "Sanidad (FATSA)": {
+      "icon": "medkit",
+      "convenios": {
+        "Sanidad - Droguerías (CCT 120/75)": {
+          "porcAntiguedad": "2",
+          "porcPresentismo": "10",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2.5",
+          "horasMes": "192",
+          "divisorVac": "25",
+          "categorias": {
+            "Profesional Farmacéutico": "2382621",
+            "1ra Cat (Chofer / Expedición)": "1980000",
+            "2da Cat (Preparador / Empaque)": "1810000",
+            "3ra Cat (Operario / Maestranza)": "1720000",
+            "Cadete / Ingresante": "1623475"
+          }
+        },
+        "Sanidad - Laboratorios (CCT 42/89)": {
+          "porcAntiguedad": "2",
+          "porcPresentismo": "10",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2.5",
+          "horasMes": "192",
+          "divisorVac": "25",
+          "categorias": {
+            "Profesional / Analista": "2450000",
+            "Operario Especializado / Técnico": "2100000",
+            "Operario Calificado / Admin": "1920000",
+            "Operario Peón / Limpieza": "1650000"
+          }
+        },
+        "Sanidad - Clínicas y Sanatorios (CCT 122/75)": {
+          "porcAntiguedad": "2",
+          "porcPresentismo": "10",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2.5",
+          "horasMes": "192",
+          "divisorVac": "25",
+          "categorias": {
+            "Enfermero/a Profesional": "1890000",
+            "Auxiliar de Enfermería": "1720000",
+            "Administrativo 1ra": "1680000",
+            "Camillero / Cocina": "1610000",
+            "Mucamo/a / Maestranza": "1550000"
+          }
+        },
+        "Sanidad - Diagnóstico y Tratamiento (CCT 108/75)": {
+          "porcAntiguedad": "2",
+          "porcPresentismo": "10",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2.5",
+          "horasMes": "192",
+          "divisorVac": "25",
+          "categorias": {
+            "Técnico Radiólogo / Bioquímico": "1850000",
+            "Enfermería Consultorio": "1710000",
+            "Recepcionista / Facturista": "1640000",
+            "Personal Maestranza": "1580000"
+          }
+        }
+      }
+    },
+    "Comercio y Servicios": {
+      "icon": "cart",
+      "convenios": {
+        "Comercio (CCT 130/75)": {
+          "porcAntiguedad": "1",
+          "porcPresentismo": "8.33",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2",
+          "horasMes": "200",
+          "divisorVac": "25",
+          "categorias": {
+            "Administrativo A / Inicial": "1167781",
+            "Cajero / Vendedor B": "1194044",
+            "Vendedor D / Admin Especializado": "1218519",
+            "Auxiliar Especializado": "1180274",
+            "Maestranza A": "1155795"
+          }
+        },
+        "Call Center / Servicios (CCT 781/20)": {
+          "porcAntiguedad": "1",
+          "porcPresentismo": "8.33",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2",
+          "horasMes": "160",
+          "divisorVac": "25",
+          "categorias": {
+            "Operador de Contact Center": "980000",
+            "Operador Especializado / Bilingüe": "1090000",
+            "Supervisor de Operaciones": "1250000"
+          }
+        }
+      }
+    },
+    "Seguridad Privada": {
+      "icon": "shield-checkmark",
+      "convenios": {
+        "Seguridad Privada (CCT 507/07)": {
+          "porcAntiguedad": "1",
+          "porcPresentismo": "12",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2",
+          "horasMes": "200",
+          "divisorVac": "25",
+          "categorias": {
+            "Vigilador General": "1053200",
+            "Vigilador Bombero": "1123000",
+            "Operador de Monitoreo / CCTV": "1123000",
+            "Administrativo de Seguridad": "1155100"
+          }
+        }
+      }
+    },
+    "Construcción": {
+      "icon": "construct",
+      "convenios": {
+        "UOCRA (CCT 76/75)": {
+          "porcAntiguedad": "1.5",
+          "porcPresentismo": "20",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2.5",
+          "horasMes": "176",
+          "divisorVac": "25",
+          "categorias": {
+            "Oficial Especializado": "1050000",
+            "Oficial": "920000",
+            "Medio Oficial": "850000",
+            "Ayudante de Obra": "790000"
+          }
+        }
+      }
+    },
+    "Industria Metalúrgica": {
+      "icon": "cog",
+      "convenios": {
+        "Metalúrgicos UOM (CCT 260/75)": {
+          "porcAntiguedad": "1",
+          "porcPresentismo": "10",
+          "porcNocturnidad": "30",
+          "porcSindicato": "2.5",
+          "horasMes": "192",
+          "divisorVac": "25",
+          "categorias": {
+            "Oficial Múltiple": "1280000",
+            "Oficial Metalúrgico": "1190000",
+            "Operario Calificado": "1110000",
+            "Operario Práctico / Ingresante": "1030000"
+          }
+        }
+      }
+    },
+    "Logística y Transporte": {
+      "icon": "bus",
+      "convenios": {
+        "Camioneros (CCT 40/89)": {
+          "porcAntiguedad": "1",
+          "porcPresentismo": "10",
+          "porcNocturnidad": "35",
+          "porcSindicato": "2.5",
+          "horasMes": "192",
+          "divisorVac": "25",
+          "categorias": {
+            "Conductor de 1ra Categoría": "1450000",
+            "Conductor de Reparto": "1330000",
+            "Clarkista / Maquinista": "1290000",
+            "Peón Operativo de Cargas": "1210000"
+          }
+        }
+      }
+    }
+  }
+}
